@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #191825;
+}
+
+.header {
+    z-index: 2;
+    position: fixed;
+    top: 0px;
+    height: 45px;
+    width: 100%;
+    background-color: #19376d;
+    white-space: nowrap;
+}
+
+.title {
+    color: #f7f1e5;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'ABeeZee', sans-serif;
+    display: block;
+    width: 600px;
+    margin-left: 100px;
+    margin-top: 65px;
+}
+
+.page {
+    display: grid;
+    grid-template-columns: 590px 1fr;
+    padding: 40px 100px 0px 100px;
+}
+
+.text, .about, .skills {
+    font-family: 'ABeeZee', sans-serif;
+    color: #F7F1E5;
+    font-size: 40px;
+}
+
+.about {
+    font-size: 20px;
+    width: 530px;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.skills {
+    margin-left: 290px;
+    margin-top: -170px;
+    font-weight: bold;
+}
+
+.skills-list {
+    margin-left: -325px;
+    padding-top: 10px;
+}
+
+.hidden {
+    width: 240px;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.site {
+    padding-right: 290px;
+}
+
+.site, .header-text {
+    display: inline-block;
+    background-color: #19376d;
+    color: white;
+    font-family: 'ABeeZee', sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    vertical-align: middle;
+    padding-left: 150px
+}
+
+.cover-image {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    margin-top: -190px;
+    margin-left: 75px;
+}
+
+.home-layout {
+    display: grid;
+    grid-template-columns: 630px 600px 600px 65px;
+}
+
+.logos {
+    height: 50px;
+}
+.logosGrouped {
+    margin-top: -130px;
+}
+
+.html {color: #fd7a65;}
+.css {color: #1a9be3;}
+.javascript {color: #fecb4c;}
+.java {color: #5585a4;}
+.csharp {color: #3a008d;}
+.python {color: #fef1b2;}
