@@ -91,6 +91,7 @@
     object-fit: cover;
     margin-top: -190px;
     margin-left: 75px;
+    border-radius: 15px;
 }
 
 .home-layout {
