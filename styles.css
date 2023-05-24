@@ -22,9 +22,16 @@
     font-family: 'ABeeZee', sans-serif;
     display: block;
     width: 600px;
-    margin-left: 100px;
-    margin-top: 65px;
+    margin: 65px 0 0 100px;
 }
+
+.text, .about, .skills, .project-description, .projects  {
+    font-family: 'ABeeZee', sans-serif;
+    color: #F7F1E5;
+    font-size: 40px;
+}
+
+/* Home page */
 
 .page {
     display: grid;
@@ -32,22 +39,14 @@
     padding: 40px 100px 0px 100px;
 }
 
-.text, .about, .skills {
-    font-family: 'ABeeZee', sans-serif;
-    color: #F7F1E5;
-    font-size: 40px;
-}
-
 .about {
     font-size: 20px;
     width: 530px;
-    margin-top: 60px;
-    margin-left: 100px;
+    margin: 60px 0 0 100px;
 }
 
 .skills {
-    margin-left: 290px;
-    margin-top: -170px;
+    margin: -170px 0 0 290px;
     font-weight: bold;
 }
 
@@ -70,9 +69,7 @@
     transform: translateX(0);
 }
 
-.site {
-    padding-right: 290px;
-}
+.site {padding-right: 290px;}
 
 .site, .header-text {
     display: inline-block;
@@ -89,8 +86,7 @@
     width: 400px;
     height: 500px;
     object-fit: cover;
-    margin-top: -190px;
-    margin-left: 75px;
+    margin: -190px 0 0 75px;
     border-radius: 15px;
 }
 
@@ -99,12 +95,8 @@
     grid-template-columns: 630px 600px 600px 65px;
 }
 
-.logos {
-    height: 50px;
-}
-.logosGrouped {
-    margin-top: -130px;
-}
+.logos {height: 50px;}
+.logosGrouped {margin-top: -130px;}
 
 .html {color: #fd7a65;}
 .css {color: #1a9be3;}
@@ -112,3 +104,22 @@
 .java {color: #5585a4;}
 .csharp {color: #3a008d;}
 .python {color: #fef1b2;}
+
+/* Project page */
+
+.project-description {
+    margin: 20px 0px 0px 100px;
+    font-size: 20px;
+    width: 475px;
+}
+
+.projects {
+    margin: 80px 0px 140px 100px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.decoration {
+    color: #F7F1E5;
+    text-decoration: none;
+}
